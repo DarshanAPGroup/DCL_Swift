@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		054883ACE6DEA402E37F0E5C /* Pods_DCL_DCLUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD8CE92A74A4FEE2FABFDA0 /* Pods_DCL_DCLUITests.framework */; };
+		05BE946EE3A493782A4AE551 /* Pods_DCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21386EE9D6AFE1E5539A6991 /* Pods_DCL.framework */; };
+		38DF98273F08EE21255F8DA9 /* Pods_DCLTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0739F230C1DAE5F051AC27D /* Pods_DCLTests.framework */; };
+		EE70949027F43B8B00DD4FE4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE70948F27F43B8B00DD4FE4 /* QuartzCore.framework */; };
+		EE70949227F4681400DD4FE4 /* forgotpassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE70949127F4681400DD4FE4 /* forgotpassword.swift */; };
+		EE843D0F27FFEB6400810621 /* Tabbed_Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE843D0E27FFEB6400810621 /* Tabbed_Tutorial.swift */; };
+		EE843D1127FFF2B600810621 /* ChooseLearnVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE843D1027FFF2B600810621 /* ChooseLearnVideo.swift */; };
+		EEB283D127F5711A003E3CA3 /* Loginview.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB283D027F5711A003E3CA3 /* Loginview.swift */; };
+		EEB283D327F593F3003E3CA3 /* PhoneVerificatiion.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB283D227F593F3003E3CA3 /* PhoneVerificatiion.swift */; };
+		EEB283D527F5A2F0003E3CA3 /* ChangePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB283D427F5A2F0003E3CA3 /* ChangePassword.swift */; };
+		EED3FC0C27FEDFFD000164F5 /* Tabbed_Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED3FC0B27FEDFFD000164F5 /* Tabbed_Home.swift */; };
+		EED4167527FBF8AA00D040FB /* UserRegistration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED4167427FBF8AA00D040FB /* UserRegistration.swift */; };
+		EED4167727FC51CE00D040FB /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED4167627FC51CE00D040FB /* DashboardVC.swift */; };
 		EED5E5F327F1833F0055AC31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED5E5F227F1833F0055AC31 /* AppDelegate.swift */; };
 		EED5E5F527F1833F0055AC31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED5E5F427F1833F0055AC31 /* SceneDelegate.swift */; };
 		EED5E5F727F1833F0055AC31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED5E5F627F1833F0055AC31 /* ViewController.swift */; };
@@ -16,6 +29,7 @@
 		EED5E60A27F183400055AC31 /* DCLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED5E60927F183400055AC31 /* DCLTests.swift */; };
 		EED5E61427F183400055AC31 /* DCLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED5E61327F183400055AC31 /* DCLUITests.swift */; };
 		EED5E61627F183400055AC31 /* DCLUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED5E61527F183400055AC31 /* DCLUITestsLaunchTests.swift */; };
+		EED5E62527F193AE0055AC31 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED5E62427F193AE0055AC31 /* LoginScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +50,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		147CB55B88E520EF14B10979 /* Pods-DCL-DCLUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCL-DCLUITests.debug.xcconfig"; path = "Target Support Files/Pods-DCL-DCLUITests/Pods-DCL-DCLUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1CC4F0ED93ACD8C8F20328A0 /* Pods-DCL-DCLUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCL-DCLUITests.release.xcconfig"; path = "Target Support Files/Pods-DCL-DCLUITests/Pods-DCL-DCLUITests.release.xcconfig"; sourceTree = "<group>"; };
+		21386EE9D6AFE1E5539A6991 /* Pods_DCL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DCL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F8397BC02C3FFC1323A924C /* Pods-DCL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCL.release.xcconfig"; path = "Target Support Files/Pods-DCL/Pods-DCL.release.xcconfig"; sourceTree = "<group>"; };
+		79F34B34D7324B970E1C032C /* Pods-DCLTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCLTests.release.xcconfig"; path = "Target Support Files/Pods-DCLTests/Pods-DCLTests.release.xcconfig"; sourceTree = "<group>"; };
+		97E8E6B8F3F850E0D593DC6E /* Pods-DCL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCL.debug.xcconfig"; path = "Target Support Files/Pods-DCL/Pods-DCL.debug.xcconfig"; sourceTree = "<group>"; };
+		AC617FAE48A4B97282632EFF /* Pods-DCLTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCLTests.debug.xcconfig"; path = "Target Support Files/Pods-DCLTests/Pods-DCLTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0739F230C1DAE5F051AC27D /* Pods_DCLTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DCLTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD8CE92A74A4FEE2FABFDA0 /* Pods_DCL_DCLUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DCL_DCLUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE70948F27F43B8B00DD4FE4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EE70949127F4681400DD4FE4 /* forgotpassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgotpassword.swift; sourceTree = "<group>"; };
+		EE843D0E27FFEB6400810621 /* Tabbed_Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbed_Tutorial.swift; sourceTree = "<group>"; };
+		EE843D1027FFF2B600810621 /* ChooseLearnVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseLearnVideo.swift; sourceTree = "<group>"; };
+		EEB283D027F5711A003E3CA3 /* Loginview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loginview.swift; sourceTree = "<group>"; };
+		EEB283D227F593F3003E3CA3 /* PhoneVerificatiion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneVerificatiion.swift; sourceTree = "<group>"; };
+		EEB283D427F5A2F0003E3CA3 /* ChangePassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePassword.swift; sourceTree = "<group>"; };
+		EEBA5AB127FD49AB00CEE333 /* DCL.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DCL.entitlements; sourceTree = "<group>"; };
+		EED3FC0B27FEDFFD000164F5 /* Tabbed_Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbed_Home.swift; sourceTree = "<group>"; };
+		EED4167427FBF8AA00D040FB /* UserRegistration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegistration.swift; sourceTree = "<group>"; };
+		EED4167627FC51CE00D040FB /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
 		EED5E5EF27F1833F0055AC31 /* DCL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EED5E5F227F1833F0055AC31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EED5E5F427F1833F0055AC31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +83,7 @@
 		EED5E60F27F183400055AC31 /* DCLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DCLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EED5E61327F183400055AC31 /* DCLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCLUITests.swift; sourceTree = "<group>"; };
 		EED5E61527F183400055AC31 /* DCLUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCLUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EED5E62427F193AE0055AC31 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +91,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE70949027F43B8B00DD4FE4 /* QuartzCore.framework in Frameworks */,
+				05BE946EE3A493782A4AE551 /* Pods_DCL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38DF98273F08EE21255F8DA9 /* Pods_DCLTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +108,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				054883ACE6DEA402E37F0E5C /* Pods_DCL_DCLUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3586FF02A04655080155117C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97E8E6B8F3F850E0D593DC6E /* Pods-DCL.debug.xcconfig */,
+				6F8397BC02C3FFC1323A924C /* Pods-DCL.release.xcconfig */,
+				147CB55B88E520EF14B10979 /* Pods-DCL-DCLUITests.debug.xcconfig */,
+				1CC4F0ED93ACD8C8F20328A0 /* Pods-DCL-DCLUITests.release.xcconfig */,
+				AC617FAE48A4B97282632EFF /* Pods-DCLTests.debug.xcconfig */,
+				79F34B34D7324B970E1C032C /* Pods-DCLTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EE4F48C427F2C59700216322 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EED5E62427F193AE0055AC31 /* LoginScreen.swift */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		EE70948E27F43B8B00DD4FE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE70948F27F43B8B00DD4FE4 /* QuartzCore.framework */,
+				21386EE9D6AFE1E5539A6991 /* Pods_DCL.framework */,
+				EDD8CE92A74A4FEE2FABFDA0 /* Pods_DCL_DCLUITests.framework */,
+				C0739F230C1DAE5F051AC27D /* Pods_DCLTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEB283CF27F570E7003E3CA3 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				EEB283D027F5711A003E3CA3 /* Loginview.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
 		EED5E5E627F1833F0055AC31 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +162,8 @@
 				EED5E60827F183400055AC31 /* DCLTests */,
 				EED5E61227F183400055AC31 /* DCLUITests */,
 				EED5E5F027F1833F0055AC31 /* Products */,
+				EE70948E27F43B8B00DD4FE4 /* Frameworks */,
+				3586FF02A04655080155117C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +180,24 @@
 		EED5E5F127F1833F0055AC31 /* DCL */ = {
 			isa = PBXGroup;
 			children = (
+				EEBA5AB127FD49AB00CEE333 /* DCL.entitlements */,
+				EEB283CF27F570E7003E3CA3 /* UIView */,
+				EE4F48C427F2C59700216322 /* LoginViewController */,
 				EED5E5F227F1833F0055AC31 /* AppDelegate.swift */,
-				EED5E5F427F1833F0055AC31 /* SceneDelegate.swift */,
 				EED5E5F627F1833F0055AC31 /* ViewController.swift */,
+				EED5E5F427F1833F0055AC31 /* SceneDelegate.swift */,
 				EED5E5F827F1833F0055AC31 /* Main.storyboard */,
 				EED5E5FB27F183400055AC31 /* Assets.xcassets */,
 				EED5E5FD27F183400055AC31 /* LaunchScreen.storyboard */,
 				EED5E60027F183400055AC31 /* Info.plist */,
+				EE70949127F4681400DD4FE4 /* forgotpassword.swift */,
+				EEB283D227F593F3003E3CA3 /* PhoneVerificatiion.swift */,
+				EEB283D427F5A2F0003E3CA3 /* ChangePassword.swift */,
+				EED4167427FBF8AA00D040FB /* UserRegistration.swift */,
+				EED4167627FC51CE00D040FB /* DashboardVC.swift */,
+				EED3FC0B27FEDFFD000164F5 /* Tabbed_Home.swift */,
+				EE843D0E27FFEB6400810621 /* Tabbed_Tutorial.swift */,
+				EE843D1027FFF2B600810621 /* ChooseLearnVideo.swift */,
 			);
 			path = DCL;
 			sourceTree = "<group>";
@@ -134,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EED5E61927F183400055AC31 /* Build configuration list for PBXNativeTarget "DCL" */;
 			buildPhases = (
+				F53648036501479764C9DD24 /* [CP] Check Pods Manifest.lock */,
 				EED5E5EB27F1833F0055AC31 /* Sources */,
 				EED5E5EC27F1833F0055AC31 /* Frameworks */,
 				EED5E5ED27F1833F0055AC31 /* Resources */,
+				AFD02E73BCAAEE854831F99F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +245,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EED5E61C27F183400055AC31 /* Build configuration list for PBXNativeTarget "DCLTests" */;
 			buildPhases = (
+				7232004A68216DC121BE15C2 /* [CP] Check Pods Manifest.lock */,
 				EED5E60127F183400055AC31 /* Sources */,
 				EED5E60227F183400055AC31 /* Frameworks */,
 				EED5E60327F183400055AC31 /* Resources */,
@@ -169,9 +264,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EED5E61F27F183400055AC31 /* Build configuration list for PBXNativeTarget "DCLUITests" */;
 			buildPhases = (
+				515CCE1CBD6267516FE94B00 /* [CP] Check Pods Manifest.lock */,
 				EED5E60B27F183400055AC31 /* Sources */,
 				EED5E60C27F183400055AC31 /* Frameworks */,
 				EED5E60D27F183400055AC31 /* Resources */,
+				B1AF1A256D793BCBC33663D2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +312,15 @@
 				Base,
 			);
 			mainGroup = EED5E5E627F1833F0055AC31;
+			packageReferences = (
+				EE4F48C527F2DA5B00216322 /* XCRemoteSwiftPackageReference "swift-corelibs-foundation" */,
+				EE4F48C627F2DB1E00216322 /* XCRemoteSwiftPackageReference "swift-package-manager" */,
+				EE4F48C727F2DB6300216322 /* XCRemoteSwiftPackageReference "swift-nio" */,
+				EEBA5AB027FD495B00CEE333 /* XCRemoteSwiftPackageReference "SideMenu" */,
+				EEBA5AB227FD4A1A00CEE333 /* XCRemoteSwiftPackageReference "SideMenu" */,
+				EEBA5AB327FD4B6200CEE333 /* XCRemoteSwiftPackageReference "swift-corelibs-libdispatch" */,
+				EEBA5AB427FD4E0400CEE333 /* XCRemoteSwiftPackageReference "SideMenu" */,
+			);
 			productRefGroup = EED5E5F027F1833F0055AC31 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -253,14 +359,127 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		515CCE1CBD6267516FE94B00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DCL-DCLUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7232004A68216DC121BE15C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DCLTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFD02E73BCAAEE854831F99F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DCL/Pods-DCL-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DCL/Pods-DCL-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DCL/Pods-DCL-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1AF1A256D793BCBC33663D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DCL-DCLUITests/Pods-DCL-DCLUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DCL-DCLUITests/Pods-DCL-DCLUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DCL-DCLUITests/Pods-DCL-DCLUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F53648036501479764C9DD24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DCL-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EED5E5EB27F1833F0055AC31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEB283D527F5A2F0003E3CA3 /* ChangePassword.swift in Sources */,
+				EED4167727FC51CE00D040FB /* DashboardVC.swift in Sources */,
+				EEB283D127F5711A003E3CA3 /* Loginview.swift in Sources */,
 				EED5E5F727F1833F0055AC31 /* ViewController.swift in Sources */,
 				EED5E5F327F1833F0055AC31 /* AppDelegate.swift in Sources */,
+				EE843D0F27FFEB6400810621 /* Tabbed_Tutorial.swift in Sources */,
 				EED5E5F527F1833F0055AC31 /* SceneDelegate.swift in Sources */,
+				EE843D1127FFF2B600810621 /* ChooseLearnVideo.swift in Sources */,
+				EE70949227F4681400DD4FE4 /* forgotpassword.swift in Sources */,
+				EED4167527FBF8AA00D040FB /* UserRegistration.swift in Sources */,
+				EED3FC0C27FEDFFD000164F5 /* Tabbed_Home.swift in Sources */,
+				EEB283D327F593F3003E3CA3 /* PhoneVerificatiion.swift in Sources */,
+				EED5E62527F193AE0055AC31 /* LoginScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,11 +651,14 @@
 		};
 		EED5E61A27F183400055AC31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97E8E6B8F3F850E0D593DC6E /* Pods-DCL.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DCL/DCL.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FT4QM22ZG4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DCL/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -459,11 +681,14 @@
 		};
 		EED5E61B27F183400055AC31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F8397BC02C3FFC1323A924C /* Pods-DCL.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DCL/DCL.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FT4QM22ZG4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DCL/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -486,6 +711,7 @@
 		};
 		EED5E61D27F183400055AC31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC617FAE48A4B97282632EFF /* Pods-DCLTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +731,7 @@
 		};
 		EED5E61E27F183400055AC31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79F34B34D7324B970E1C032C /* Pods-DCLTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +751,7 @@
 		};
 		EED5E62027F183400055AC31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 147CB55B88E520EF14B10979 /* Pods-DCL-DCLUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +769,7 @@
 		};
 		EED5E62127F183400055AC31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CC4F0ED93ACD8C8F20328A0 /* Pods-DCL-DCLUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -596,6 +825,65 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EE4F48C527F2DA5B00216322 /* XCRemoteSwiftPackageReference "swift-corelibs-foundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-corelibs-foundation.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		EE4F48C627F2DB1E00216322 /* XCRemoteSwiftPackageReference "swift-package-manager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-package-manager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.0;
+			};
+		};
+		EE4F48C727F2DB6300216322 /* XCRemoteSwiftPackageReference "swift-nio" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-nio.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		EEBA5AB027FD495B00CEE333 /* XCRemoteSwiftPackageReference "SideMenu" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jonkykong/SideMenu.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		EEBA5AB227FD4A1A00CEE333 /* XCRemoteSwiftPackageReference "SideMenu" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jonkykong/SideMenu.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		EEBA5AB327FD4B6200CEE333 /* XCRemoteSwiftPackageReference "swift-corelibs-libdispatch" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-corelibs-libdispatch.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		EEBA5AB427FD4E0400CEE333 /* XCRemoteSwiftPackageReference "SideMenu" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jonkykong/SideMenu.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = EED5E5E727F1833F0055AC31 /* Project object */;
 }
